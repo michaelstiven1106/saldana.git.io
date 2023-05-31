@@ -1,0 +1,88 @@
+*{
+    background-color: #063bfa;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #0A3871;}
+.text-area:focus{
+    outline:none;
+}
+.mensaje{
+    background: rgb(252, 3, 3);
+    background-image: url("moto.png" ) ;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    height: 780px;
+    width: 400px;
+    margin-left: 798px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    
+    
+}
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 10px;
+}
+.btn-desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-copiar{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 180px;
+    background-color: #710a0a;
+    border: 1px solid #710a0a;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+}
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
